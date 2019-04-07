@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ListView
+       android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@color/colorAccent"
+        >
+    </ListView>
+</LinearLayout>
+<!--android:listSelector="@color/colorAccent" 当点击到某个item时,item会改变颜色,对应Activity里的点击事件-->
+<!--颜色对应的是res/values/colors.xml-->
